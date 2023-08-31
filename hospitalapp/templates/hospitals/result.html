@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nearby Hospitals</title>
+</head>
+<body>
+    <h1>Nearby Hospitals</h1>
+    <ul>
+        {% for hospital in hospitals %}
+            <li>
+                <h2>{{ hospital.title }}</h2>
+                <p><strong>Address:</strong> {{ hospital.address.label }}</p>
+                <p><strong>City:</strong> {{ hospital.address.city }}</p>
+                <p><strong>Country:</strong> {{ hospital.address.countryName }}</p>
+                <p><strong>Distance:</strong> {{ hospital.distance }} meters</p>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+

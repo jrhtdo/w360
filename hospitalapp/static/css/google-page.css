@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.fa-solid {
+  position: absolute;
+  top: 12%;
+  left: 30%;
+  font-size: 20px;
+}
+img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10%;
+}
+
+.main {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80vh;
+}
+
+.con h2 {
+  color: #0079ff;
+}
+
+.account {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #999;
+}
+
+.account button {
+  font-size: 20px;
+  padding: 8px 17px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  background-color: transparent;
+}
+
+.account div p {
+  margin-left: 20px;
+}

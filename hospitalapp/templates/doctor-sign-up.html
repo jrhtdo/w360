@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign-Up</title>
+    <link rel="stylesheet" href="css/doctor-sign-up.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="main-con">
+      <i class="fa-solid fa-arrow-left"></i>
+      <div class="logo">
+        <img src="images/small-logo.png" alt="" />
+      </div>
+      <div class="login-con">
+        <div class="left-con">
+          <img src="images/sign-in-pic.png" alt="" />
+        </div>
+
+        <div class="right-con">
+          <h1>Sign up</h1>
+          <form>
+            <label>Full name</label>
+            <input type="text" placeholder="Enter your full name" />
+
+            <div class="small-div">
+              <div class="address">
+                <label>Email address</label>
+                <input type="email" placeholder="Enter your email address" />
+              </div>
+              <div class="phone">
+                <label>Phone</label>
+                <input type="number" placeholder="Enter your phone number" />
+              </div>
+            </div>
+
+            <div class="small-div">
+              <div class="gender">
+                <label>Gender</label>
+                <input type="email" placeholder="Select gender" />
+              </div>
+              <div class="speciality">
+                <label>Speciality</label>
+                <input
+                  type="text"
+                  placeholder="Enter your your area of speciality"
+                />
+              </div>
+            </div>
+
+            <div class="small-div">
+              <div class="medical">
+                <label>Medical License number</label>
+                <input
+                  type="text"
+                  placeholder="Enter your medical license number"
+                />
+              </div>
+              <div class="experience">
+                <label>Professional Experience</label>
+                <input
+                  type="number"
+                  placeholder="Enter your year of experience"
+                />
+              </div>
+            </div>
+
+            <label>Clinic or hospital details</label>
+            <input type="text" placeholder="Enter the name of your hospital" />
+
+            <label>Password</label>
+            <input type="password" placeholder="********" />
+
+            <label>Confirm Password</label>
+            <input type="password" placeholder="********" />
+          </form>
+
+          <div class="med">
+            <p>upload your medical certificate</p>
+            <p><span>NOTE:</span>Your file size must not be more than 10MB</p>
+            <button id="add">
+              <i class="fa fa-upload" aria-hidden="true"></i> Add file
+            </button>
+          </div>
+
+          <div class="passport">
+            <p id="add">upload a valid means of identification (eg passport)</p>
+
+            <button>
+              <i class="fa fa-upload" aria-hidden="true"></i> Add file
+            </button>
+          </div>
+
+          <div class="create-btn">
+            <a href=""> <button>Create an account</button></a>
+          </div>
+
+          <div class="sign-btn">
+            <a href="google-page.html"> <button>Sign in with Google</button></a>
+          </div>
+
+          <p id="sign-in-link">
+            Already have an account? <a href="login-page.html">Sign in</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,45 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thank you</title>
+    <!----------------------- 
+        CSS LINK
+     ------------------------>
+    <link rel="stylesheet" href="{% static 'css/verify.css' %}" />
+  </head>
+
+  <body>
+    <div class="container3">
+      <div class="logo">
+        <div>
+          <a href="index.html">
+            <i class="fa fa-long-arrow-left"></i>
+          </a>
+        </div>
+        <div class="wellness">
+          <img src="{% static 'img/wellness361logo.png' %}" alt="wellness361logo" />
+        </div>
+      </div>
+
+      <div class="mess">
+        <img src="{% static 'img/thankyoumgs.png' %}" alt="" />
+      </div>
+      <div class="popup">
+        <h2>Thank you for registering as a blood donor!</h2>
+        <p>
+          Your willingness to make a difference and save lives through blood
+          donation is truly commendable. We greatly appreciate your commitment
+          to this noble cause. Your registration has been successfully submitted
+          and our team will now review and verify the information provided. We
+          may reach out to you for any additional details if required and also
+          keep you updated on upcoming donation events and other relevant
+          information. Thank you once again for your generosity and for joining
+          us in our mission to save lives through blood donation.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

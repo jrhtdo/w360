@@ -1,0 +1,347 @@
+@import url(/icons/font-awesome-4.7.0/css/font-awesome.css);
+
+body {
+  font-family: Poppins;
+  /* height: 10vh; */
+  /* align-items: center;
+  justify-content: center; */
+}
+.container {
+  margin-top: 5%;
+
+  background: #ffffff;
+  text-align: center;
+}
+.logo {
+  justify-content: center;
+}
+.verify-code {
+  margin-top: 3rem;
+  border-radius: 5px;
+  color: #2979ff;
+}
+.verify-code h2 {
+  font-size: 23px;
+  font-weight: 700;
+  margin: 30px 0 10px;
+  color: #292929;
+}
+.inputcode {
+  margin-top: 3rem;
+}
+.inputcode input {
+  width: 3%;
+  padding: 20px;
+  font-size: 24px;
+  border: 1px solid #acacac;
+  font-weight: 700;
+  color: black;
+  margin: 10px;
+  background: transparent;
+}
+.code {
+  display: flex;
+
+  justify-content: center;
+}
+
+.code p {
+  font-size: 15px;
+  color: #292929;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 5px;
+}
+
+.code .resend-code {
+  color: #2979ff;
+  padding-left: 193px;
+}
+.verify {
+  height: 50px;
+  width: 34%;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  outline: none;
+  border: 0;
+  color: #ffffff;
+  background: #2979ff;
+  margin-top: 130px;
+  cursor: pointer;
+}
+
+.verify:hover {
+  background: #70a6ff;
+}
+
+/* Eligibility criteria*/
+.container2 {
+  margin-top: 5%;
+  width: 80%;
+  padding-left: 80px;
+
+  background: #ffffff;
+}
+.container2 .logo {
+  text-align: center;
+}
+.container2 .logo {
+  color: #2979ff;
+  font-size: 15px;
+  font-weight: bold;
+}
+.container p {
+  /* padding: 20px 0 0 0; */
+  justify-content: center;
+  font-size: 20px;
+}
+.requirements .req-eligibility {
+  color: #335e35;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.eligibility {
+  /* border: 1px solid black; */
+  height: 100%;
+  width: 260px;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+
+.circle {
+  border: 1px solid #335e35;
+  border-radius: 50px;
+  height: 20px;
+  width: 20px;
+}
+
+.age {
+  margin-left: 30px;
+  font-size: 18px;
+  margin-top: 5px;
+  font-weight: 700px;
+}
+
+.req-context {
+  margin-left: 2rem;
+  color: black;
+  margin-top: 10px;
+}
+.req-context p {
+  width: 45rem;
+}
+.center-container {
+  text-align: center;
+  margin-top: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.reg-donor {
+  font-size: 16px;
+  color: #ffffff;
+  height: 40px;
+  width: 32rem;
+  border: 1px solid #2979ff;
+  border-radius: 10px;
+  background-color: #2979ff;
+  outline: none;
+}
+
+.reg-donor:hover {
+  color: #cecece;
+  background-color: #4d8fff;
+  box-shadow: #4d8fff;
+}
+/*welcome*/
+.container3 {
+  padding-top: 72px;
+  padding-bottom: 77px;
+  padding-left: 400px;
+  padding-right: 400px;
+  background: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 8px;
+}
+.cal-wellcome {
+  margin-top: 30px;
+  font-weight: 500px;
+  font-size: 24px;
+  color: #2979ff;
+}
+p {
+  line-height: 1.5;
+  font-weight: bold;
+  /* position: absolute; */
+  font-size: 20px;
+}
+button {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+
+  padding: 10px 0;
+  background: #2979ff;
+  color: #fff;
+  border: 0;
+  outline: none;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.patient {
+  background: transparent;
+  top: 15px;
+  border: 3px solid #2979ff;
+  background-color: #fff;
+  color: #2979ff;
+}
+.patient:hover {
+  color: #cecece;
+  background-color: #4d8fff;
+  box-shadow: #4d8fff;
+}
+.doctor:hover {
+  color: #2979ff;
+  background-color: #cecece;
+  box-shadow: #4d8fff;
+}
+
+/*Thank you message */
+.mess img {
+  width: 200px;
+  height: 200px;
+}
+.popup h2 {
+  font-size: 20px;
+  color: #2979ff;
+}
+.popup p {
+  font-size: 16px;
+}
+/*You have successfully created your account*/
+.successful img {
+  width: 200px;
+  height: 200px;
+}
+.successful h3 {
+  font-size: 24px;
+  color: #2979ff;
+}
+.successful p {
+  font-size: 15px;
+  font-weight: 100px;
+}
+
+/*donate*/
+.container4 {
+  padding: 40px 6rem;
+}
+.wellness {
+  text-align: center;
+}
+.container4 h1 {
+  font-size: 33px;
+  font-weight: bold;
+}
+form .user-details {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px 0 12px 0;
+}
+form .user-details .input-box {
+  margin-bottom: 25px;
+  width: calc(100% / 2 - 20px);
+}
+
+.user-details .input-box .details {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.user-details .input-box input,
+details .input-bo input {
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 10px;
+  border: 1px solid #cecece;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 3px;
+  transition: all 0.3s ease;
+}
+.user-details .input-box input .address {
+  width: 400%;
+}
+
+.user-details .input-box input:focus,
+.user-details .input-box input:valid {
+  border-color: #2979ff;
+}
+.questions {
+  width: 100%;
+}
+
+.question {
+  margin-bottom: 30px;
+}
+
+.question span {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+.question .options {
+  font-size: 20px;
+  font-weight: 500;
+  width: 25%;
+  padding: 5px 0;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.questions .question-subtittle input {
+  width: 60%;
+  padding-top: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: dotted;
+  outline: none;
+}
+.options li {
+  display: flex;
+  align-items: center;
+}
+form .button {
+  height: 45px;
+  text-align: center;
+  margin: 80px 0;
+  /* display: flex; */
+  justify-content: center;
+}
+
+form .button input {
+  /* height: 100%; */
+  width: 40%;
+  padding: 10px;
+  outline: none;
+  font-size: 20px;
+  color: #ffffff;
+  background: #2979ff;
+  border: none;
+  border-radius: 20px;
+}

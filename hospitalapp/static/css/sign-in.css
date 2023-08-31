@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.main img {
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #777;
+  height: 90%;
+  width: 43%;
+}
+
+.left-content {
+  background-color: #0079ff;
+  height: 100%;
+  width: 50%;
+}
+
+.left-content-text {
+  padding: 22px;
+  color: #fff;
+  margin-top: 10rem;
+}
+
+.right-content {
+  margin-left: 20px;
+}
+
+.right-content h1 {
+  color: #0079ff;
+  font-size: 20px;
+}
+
+label {
+  display: flex;
+  font-size: 12px;
+}
+
+.right-content input {
+  width: 110%;
+  padding: 6px;
+  border: 1px solid #777;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* .btn {
+  display: block;
+} */
+
+button {
+  width: 120%;
+  display: block;
+  border: none;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  padding: 6px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+.c-btn {
+  background-color: #0079ff;
+  color: #fff;
+}
+
+.c-btn:hover {
+  background-color: blue;
+}
+
+.s-btn {
+  background-color: transparent;
+  border: 1px solid #0079ff;
+}
+
+.s-btn:hover {
+  background-color: #0079ff;
+  color: #fff;
+}
+
+p a {
+  text-decoration: none;
+  color: #0079ff;
+}
+
+.right-content p {
+  font-size: 13px;
+}

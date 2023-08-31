@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Location Input</title>
+</head>
+<body>
+    <h1>Enter Location</h1>
+    <form action="{% url 'search' %}" method="post">
+        {% csrf_token %}
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required>
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>
+

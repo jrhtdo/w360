@@ -1,0 +1,160 @@
+body {
+  font-family: Poppins;
+}
+.container {
+  padding-top: 72px;
+  padding-bottom: 77px;
+  padding-left: 292px;
+  padding-right: 292px;
+  background: rgb(243, 239, 239);
+  align-items: center;
+  gap: 8px;
+}
+.top {
+  padding-top: 72px;
+  padding-bottom: 77px;
+  padding-left: 170px;
+  padding-right: 170px;
+  background: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 8px;
+}
+.top .mage img {
+  height: 100px;
+  width: 100px;
+}
+.top .top_head {
+  color: #454545;
+  font-size: 20px;
+  font-weight: 200;
+  word-wrap: break-word;
+}
+.top p {
+  color: #454545;
+  font-size: 19.2px;
+  word-wrap: break-word;
+}
+.top input {
+  padding: 5px 60px 5px 60px;
+  color: white;
+  background-color: #2979ff;
+  font-size: 19.2px;
+  word-wrap: break-word;
+  border-radius: 20px;
+  border: none;
+}
+
+/* Hospital Donations*/
+.don {
+  padding-top: 22px;
+  margin: 0px 20px 0px 20px;
+  align-items: center;
+  justify-content: center;
+}
+.don .headers {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.don .top_head {
+  color: #2979ff;
+}
+
+.logo img {
+  height: 60px;
+  width: 50;
+}
+.logo {
+  line-height: 0px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+th {
+  text-align: center;
+  background-color: #dddddd;
+}
+td,
+th {
+  border: 0.5px #898989 solid;
+  text-align: center;
+  padding: 8px;
+}
+
+/* forget password */
+.con {
+  padding-top: 72px;
+  padding-bottom: 77px;
+  padding-left: 242px;
+  padding-right: 252px;
+  /* background: rgb(243, 239, 239); */
+  align-items: center;
+  gap: 8px;
+}
+.header h4 {
+  color: var(--blue-600, #2979ff);
+
+  /* H4 */
+  font-size: 20px;
+  /* font-style: normal; */
+  font-weight: 700;
+  /* line-height: normal; */
+}
+.header {
+  font-size: 15px;
+  /* font-style: normal; */
+  font-weight: 700;
+}
+.con label h3 {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 1.5px;
+}
+.con .box input {
+  border-radius: 16px;
+  border: 1px solid #000;
+  opacity: 0.64;
+  width: 400px;
+  height: 40px;
+
+  flex-shrink: 0;
+}
+.con .boxers .btn,
+.sub {
+  width: 129px;
+  padding: 10px;
+  font-weight: 500px;
+  font-size: 14px;
+  margin-left: 275px;
+  color: #ffffff;
+  gap: 10px;
+  border: none;
+  border-radius: 17px;
+  background: var(--blue-600, #2979ff);
+}
+.con .sub {
+  margin-left: 125px;
+  margin-top: 35px;
+}
+.con .left-box {
+  background-color: #2979ff;
+  width: 200px;
+  height: 283px;
+  flex-shrink: 0;
+  padding: 50px;
+  margin: 20px;
+  position: absolute;
+  margin-left: 30rem;
+  top: 180px;
+}
+.con img {
+  position: absolute;
+  margin-left: 32rem;
+  top: 185px;
+  width: 230px;
+  height: 400px;
+}

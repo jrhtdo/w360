@@ -1,0 +1,262 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>blood donation landing page</title>
+    <link rel="stylesheet" href="{% static 'css/landing-page.css' %}"/>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-----------------navbar start-------------------->
+    <div class="nav-bar">
+      <div class="logo">
+        <img src="{% static 'images/logo.png' %}" alt="" />
+      </div>
+
+      <div class="li-link">
+        <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div class="sign-in-link">
+        <div class="login">
+          <button class="log">Login</button>
+        </div>
+        <div class="sign-up">
+          <a href="sign-in.html"> <button class="sign">Sign Up</button></a>
+        </div>
+      </div>
+    </div>
+    <!---------------------nav-bar end----------------------->
+
+    <!---------------------home-content-start----------------------->
+    <div class="home-content">
+      <div class="left-content">
+        <h1>Experience A New Dimension Of Good Health</h1>
+        <h2>With Wellness360</h2>
+        <p>
+          Unluck your full well-being potential witth cutting edge features,
+          expert guidance, and supportive community. Join us for transformative
+          journey to achieve your health goals and total wellness
+        </p>
+        <div class="home-btn">
+          <button>Get Started</button>
+          <button>Report an Emergency</button>
+        </div>
+      </div>
+
+      <div class="right-content">
+        <img src="{% static 'images/home-pic.png' %}" alt="" />
+      </div>
+    </div>
+
+    <!----------------------------count-div start----------------------->
+    <div class="count-div">
+      <div class="count">
+        <h2>10</h2>
+        <h3>Supported Countries</h3>
+      </div>
+
+      <div class="count">
+        <h2>20K</h2>
+        <h3>Active Users</h3>
+      </div>
+
+      <div class="count">
+        <h2>15K</h2>
+        <h3>Community Members</h3>
+      </div>
+    </div>
+    <!----------------------------count-div end----------------------->
+
+    <!----------------------------about-us start----------------------->
+    <div class="about">
+      <h2>Who Are We?</h2>
+
+      <div class="about-content">
+        <div class="about-img">
+          <img src="{% static 'images/about-pic.png' %}" alt="" />
+        </div>
+
+        <div class="about-text">
+          <p>
+            Wellness360 is a platform committed to revolutionize the way
+            individuals approach their health and well-being. We are driven by a
+            singular purpose: to empower individuals to take control of their
+            health and well-being, all from the comfort of their homes,
+            fostering a sense of community and making a positive impact in the
+            world. As a trusted online healthcare provider, we have assembled a
+            team of dedicated professionals including doctors, specialists and
+            wellness experts who are passionate about delivering high-quality
+            care and support.
+          </p>
+          <button class="about-btn">About Us</button>
+        </div>
+      </div>
+    </div>
+    <!----------------------------about-us end----------------------->
+
+    <!----------------------------unique features start----------------------->
+    <div class="unique-home-con">
+      <h2>Our Unique Features</h2>
+      <div class="unique-content">
+        <div class="unique-div">
+          <img src="{% static 'images/man-1.png' %}" alt="" />
+          <h3>Virtual Consultations</h3>
+          <p>
+            Experience the convenience of accessing healthcare from the comfort
+            of your own home. With our virtual consultation, you can connect
+            with qualified healthcare professionals anytime, anywhere, have the
+            opportunity to discuss our health concerns, receive medical advice
+            and explore treatment options, all without the need for in-person
+            visits. Stay connected, receive the guidance you need and take
+            control of your wellbeing with our virtual consultation
+          </p>
+          <button>Consult a Doctor</button>
+        </div>
+        <div class="unique-div">
+          <img src="{% static 'images/pharmacy.png' %}" alt="" />
+          <h3>Nearby Pharmacy</h3>
+          <p>
+            Embrace the harmony of accessibility, where closest pharmacy awaits
+            your arrival, ready to meet your health needs and uplift your
+            well-being. With a few taps you can access directions, contact
+            information and even check the availability of specific products.
+            Take control of your health journey with ease and enjoy the peace of
+            mind knowing that the nerest pharmacy is always within reach.
+          </p>
+          <form action="{% url 'search' %}" method="post">
+        {% csrf_token %}
+        <input type="text" name="location" placeholder="Enter your location">
+        <button type="submit">Search Nearby hospitals</button>
+    </form>
+        </div>
+
+        <div class="unique-div">
+          <img src="{% static 'images/man-2.png' %}" alt="" />
+          <h3>Blood Donation Network</h3>
+          <p>
+           Experience the ease of blood donation and the empowerment of saving lives.
+    With just a few simple steps, you can make a significant impact. Connect
+    with our blood donation network to find donation centers, schedule
+    appointments, and learn more about the donation process. Your contribution
+    can make a real difference. Join us in the journey of giving and experience
+    the joy of helping others in need.
+          </p>
+        <a href="{% url 'donate' %}"><button>Donate blood</button></a>
+         <a href="{% url 'last_five_entries' %}">
+    <button>Search for Potential Donors</button>
+        </div>
+      </div>
+    </div>
+    <!----------------------------unique features  end----------------------->
+
+    <!----------------------------testimonial  start----------------------->
+    <div class="testimonial">
+      <h2>What Our Clients Say About Us</h2>
+      <div class="testimonial-content">
+        <div class="testimonial-div">
+          <img class="img" src="{% static 'images/favour.png' %}" alt="" />
+          <h4>Favour Williams</h4>
+          <p>
+            Wellness360 has been a game-changer for me. The virtual
+            consultations provided me with esy access to healthcare
+            professionals from the comfort of my home. It’s convenient,
+            time-saving and the doctors are incredibly knowledgeable.
+          </p>
+          <img src="{% static 'images/star.png' %}" alt="" />
+        </div>
+        <div class="testimonial-div">
+          <img class="img" src="{% static 'images/james.png' %}" alt="" />
+          <h4>James Felix</h4>
+          <p>
+            I love using Wellness360’s chatbot feature for immediate first aid
+            instructions. It’s like having a reliable medical assistant right in
+            my pocket. The Chatbot’s responses are accurate and helpful,
+            providing peace of mind during emergencies.
+          </p>
+          <img src="{% static 'images/star.png' %}" alt="" />
+        </div>
+        <div class="testimonial-div">
+          <img class="img" src="{% static 'images/bella.png' %}" alt="" />
+          <h4>Bella Bernard</h4>
+          <p>
+            Emergency Services on Wellness360 have been a lifesaver for my
+            family. Ina recent urgent situation, the app quickly located nearby
+            hospitals, giving us the information we needed for prompt medical
+            care. It’s a must-have tool for any health-conscious individual.
+          </p>
+          <img src="{% static 'images/star.png' %}" alt="" />
+        </div>
+      </div>
+    </div>
+    <!----------------------------testimonial end----------------------->
+
+    <!----------------------------community start----------------------->
+    <div class="community-content">
+      <h2>Join Our Thriving Community</h2>
+      <p>
+        Connect, Share and Learn with Wellness360. Be part of a vibrant
+        community where individuals passionate about health and wellness come
+        together. Share yor thoughts, experiences and insights and engage in
+        meaningful discussions with like-minded individuals. Our inclusive and
+        supportive community is a place to find inspiration, gain valuable
+        knowledge and build lasting connections. Join us and be a part of a
+        community that nurtures your well-being journey.
+      </p>
+      <button>Join Now</button>
+    </div>
+    <!----------------------------community end----------------------->
+    <!----------------------------footer start----------------------->
+
+    <div class="footer">
+      <div class="footer-content">
+        <div class="footer-div">
+          <h4>
+            Your wellness is our priority. Together let’s embark on a journey
+            towards a healthier and happy life.
+          </h4>
+        </div>
+
+        <div class="footer-div">
+          <h4>Company</h4>
+          <ul>
+            <li>Home</li>
+            <li>About Us</li>
+            <li>Review</li>
+            <li>Contact Us</li>
+          </ul>
+        </div>
+
+        <div class="footer-div">
+          <h4>Terms & Conditions</h4>
+          <ul>
+            <li>Cookie Policy</li>
+            <li>FAQs</li>
+            <li>Privacy Statement</li>
+          </ul>
+        </div>
+
+        <div class="footer-div">
+          <h4>Stay in Touch</h4>
+          <p>+2349071495761</p>
+          <p>wellness360@gmail.com</p>
+        </div>
+      </div>
+    </div>
+    <!----------------------------footer end----------------------->
+    <script src="{% static 'js/landing-page.js' %}"></script>
+  </body>
+</html>

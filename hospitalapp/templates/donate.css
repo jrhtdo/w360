@@ -1,0 +1,55 @@
+/* donation details */
+body {
+  font-family: Poppins;
+}
+.don {
+  padding-top: 22px;
+  margin: 0px 20px 0px 20px;
+  align-items: center;
+  justify-content: center;
+}
+.don .headers {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.don .top_head {
+  color: #2979ff;
+}
+.logo img {
+  height: 60px;
+  width: 50;
+}
+table {
+  padding-left: 20%;
+}
+.tab th,
+td {
+  border: none;
+  text-align: left;
+  padding: 8px;
+}
+.head3,
+.buttom {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.order {
+  padding-left: 19%;
+}
+.order li {
+  line-height: 25px;
+}
+.don p {
+  padding-left: 21%;
+}
+.don input {
+  padding: 5px 100px 5px 100px;
+  color: white;
+  background-color: #2979ff;
+  font-size: 15.2px;
+  word-wrap: break-word;
+  border-radius: 10px;
+  border: none;
+}

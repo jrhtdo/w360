@@ -1,0 +1,161 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eligibility Criteria For Blood Donation</title>
+    <!----------------------- 
+        CSS LINK
+     ------------------------>
+    <link rel="stylesheet" href="{% static 'css/verify.css' %}" />
+  </head>
+
+  <body>
+    <div class="container2">
+      <div>
+        <a href="index.html">
+          <i class="fa fa-long-arrow-left"></i>
+        </a>
+      </div>
+      <div class="logo">
+        <div class="wellness">
+          <a href="index.html">
+            <img src="{% static 'img/wellness361logo.png' %}" alt="wellness361logo" />
+          </a>
+        </div>
+
+        <h1 class="text-header">Eligibility Criteria For Blood Donation</h1>
+      </div>
+
+      <p class="text-subheader">
+        In order to ensure the safety and wellbeing of both donors and
+        recipients, here is a detailed outline showing the requirements for
+        individuals who wish to donate blood. Please read the following
+        guidelines carefully to determine your eligibility for blood donation.
+      </p>
+
+      <div class="requirements">
+        <div class="req-eligibility">
+          <div class="eligibility">
+            <div class="circle">
+              <i class="fa fa-circle"></i>
+            </div>
+            <div class="age">
+              <h3>Age:</h3>
+            </div>
+          </div>
+          <div class="req-context">
+            <p>
+              Donors must be between the ages of 17 and 65. <br />
+              Minors may be eligible to donate with parental consent.
+            </p>
+          </div>
+        </div>
+        <div class="req-eligibility">
+          <div class="eligibility">
+            <div class="circle">
+              <i class="fa fa-circle"></i>
+            </div>
+            <div class="age">
+              <h3>weight:</h3>
+            </div>
+          </div>
+          <div class="req-context">
+            <p>
+              Donors must weigh at least 45kg. This helps to ensure that the
+              donor has sufficient blood volume to donate without experiencing
+              adverse effects.
+            </p>
+          </div>
+        </div>
+        <div class="req-eligibility">
+          <div class="eligibility">
+            <div class="circle">
+              <i class="fa fa-circle"></i>
+            </div>
+            <div class="age">
+              <h3>Health Conditions::</h3>
+            </div>
+          </div>
+          <div class="req-context">
+            <p>
+              Individuals with certain medical conditions or health factors may
+              be temporarily or permanently deferred from donating blood. These
+              conditions may include but are not limited to:
+            </p>
+          </div>
+        </div>
+        <div class="req-eligibility">
+          <div class="eligibility">
+            <div class="circle">
+              <i class="fa fa-circle"></i>
+            </div>
+            <div class="age">
+              <h3>Medications:</h3>
+            </div>
+          </div>
+          <div class="req-context">
+            <p>
+              Some medications may affect blood donation eligibility. Donors
+              taking certain medications such as anticoagulants(blood thinners)
+              or immunosuppressants(used to suppress the immune system) may be
+              deferred. To ensure the safety of both the donor and the recipient
+              of the donated blood, it is important to provide accurate
+              information bout any medications being taken.
+            </p>
+          </div>
+        </div>
+        <div class="req-eligibility">
+          <div class="eligibility">
+            <div class="circle">
+              <i class="fa fa-circle"></i>
+            </div>
+            <div class="age">
+              <h3>Travel History:</h3>
+            </div>
+          </div>
+          <div class="req-context">
+            <p>
+              Recent travel to certain geographic regions or countries may
+              temporarily defer individual from donating blood. This is because
+              travelling to specific areas can potentially expose individuals to
+              infectious diseases which can be transmitted through blood
+              transfusion and may pose a risk to the safety of the donated
+              blood. During the screening process it is essential to inform the
+              medical team about any recent travel history, this is done to
+              ensure the safety of the donated blood and minimize the risk of
+              transmitting infectious blood to recipients.
+            </p>
+          </div>
+        </div>
+        <br /><br />
+        <div class="req-eligibility">
+          <div class="eligibility">
+            <div class="circle">
+              <i class="fa fa-circle"></i>
+            </div>
+            <div class="age">
+              <h3>Pregnancy and Breastfeeding:</h3>
+            </div>
+          </div>
+          <div class="req-context">
+            <p>
+              Due to potential risks to both the donor and the baby, pregnant or
+              breastfeeding individuals are temporarily deferred from donating
+              blood. This deferral period allows for the preservation of the
+              health of both the individual and the baby.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="center-container">
+          <a href="{% url 'patient' %}"><button class="reg-donor" id="submit" type="submit">
+            Register as a Donor
+          </button>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>

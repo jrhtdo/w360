@@ -1,0 +1,270 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 999;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  background-color: #2979ff;
+  width: 190px;
+  height: 40px;
+}
+
+.header-left .fa-table-columns {
+  padding-left: 5px;
+  color: #fff;
+}
+.header-left h2 {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.header-middle {
+  width: 60%;
+  margin-left: 30px;
+  background-color: #2979ff;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: relative;
+  height: 40px;
+}
+
+.header-middle input {
+  width: 85%;
+  margin-top: 6px;
+  margin-left: 35px;
+  padding: 5px;
+  border: none;
+  background-color: #fff;
+  border-radius: 7px;
+  z-index: 111;
+}
+
+.header-middle .fa-search {
+  position: absolute;
+  left: 6%;
+  top: 30%;
+  color: #999;
+}
+
+.header-middle input::placeholder {
+  font-size: 15px;
+  padding-left: 30px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.header-right .user {
+  background-color: #2979ff;
+  color: #fff;
+  height: 40px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.header-right .user p {
+  padding-right: 10px;
+  margin-left: 7px;
+}
+
+.header-right .fa-bell {
+  margin-right: 30px;
+  color: #777;
+  font-size: 20px;
+}
+
+.sandra-img {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+
+/*------------------sidebar styling--------------------------------*/
+
+.sidebar {
+  background-color: #2979ff;
+  position: fixed;
+  top: 15%;
+  left: 0;
+  bottom: 0;
+  width: 190px;
+}
+
+.sidebar .first-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+  color: #fff;
+  transition: all 0.6s;
+}
+
+.first-content .account {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  margin-top: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.fa {
+  font-size: 12px;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #2979ff;
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+
+.first-content .account a {
+  margin-left: 6px;
+}
+
+.Consultation {
+  color: white;
+  margin-left: 40px;
+}
+
+.sidebar .second-content {
+  display: flex;
+  flex-direction: column;
+  margin-left: 13px;
+  margin-top: 3rem;
+  color: #fff;
+  transition: all 0.6s;
+
+  margin-bottom: 10px;
+}
+
+.second-content .support {
+  display: flex;
+  align-items: center;
+}
+
+.second-content .support a {
+  margin-left: 6px;
+  margin-top: 10px;
+}
+
+.second-content .support a:hover {
+  background-color: #fff;
+  color: #2979ff;
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+
+/*-----------------body-content styling start--------------*/
+
+.body-content {
+  margin-left: 15rem;
+  margin-bottom: 20px;
+}
+
+.first-body-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+}
+
+.first-body-content .img {
+  margin-top: 90px;
+}
+
+.first-body-content img {
+  max-width: 50%;
+}
+
+.welcome {
+  margin-top: 90px;
+  background-color: #2979ff;
+  width: 60%;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.welcome-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.welcome-flex .left-content {
+  padding-left: 10px;
+  color: #fff;
+}
+
+.welcome-flex .left-content h2,
+p {
+  font-size: 18px;
+}
+
+.welcome-flex .right-content img {
+  width: 60%;
+}
+
+.div {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  width: 70%;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+.small-div {
+  background-color: #bbf1fa;
+  padding: 3px 10px;
+  border-radius: 10px;
+}
+
+.small-div .p-flex {
+  display: flex;
+  align-items: center;
+  margin-top: -12px;
+}
+
+.small-div .p-flex img {
+  max-width: 10%;
+  /* max-height: 20%; */
+}
+
+.small-div p {
+  font-size: 13px;
+}
+
+.small-div .num {
+  color: #2979ff;
+}
+
+.chart img {
+  width: 100%;
+}
+
+/*-----------------body-content styling end--------------*/

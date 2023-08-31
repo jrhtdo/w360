@@ -1,0 +1,144 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.main-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 50px 0;
+  position: relative;
+}
+
+.fa-solid {
+  position: absolute;
+  top: 3%;
+  left: 10%;
+  font-size: 20px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.login-con {
+  display: flex;
+  align-items: center;
+}
+
+.left-con img {
+  margin-top: 45px;
+  width: 300px;
+  height: 920px;
+}
+
+.right-con {
+  margin-left: 40px;
+  width: 100%;
+}
+
+.right-con input {
+  width: 100%;
+  padding: 8px;
+  border-radius: 10px;
+  margin-bottom: 22px;
+  border: 1px solid #999;
+}
+
+.right-con input::placeholder {
+  font-size: 11px;
+}
+
+.right-con h1 {
+  font-size: 33px;
+  margin-top: -25px;
+  color: #0079ff;
+}
+
+.small-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.small-div input {
+  width: 90%;
+}
+
+label {
+  display: flex;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.med {
+  margin-top: -20px;
+}
+
+.med span {
+  font-weight: bold;
+}
+
+.passport {
+  margin-top: 40px;
+}
+
+.med button,
+.passport button {
+  background-color: transparent;
+  width: 25%;
+  border: 2px solid #100f0f;
+  border-radius: 0;
+  padding: 10px 15px;
+}
+
+.create-btn button {
+  width: 105%;
+  background-color: #0079ff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 7px 8px;
+  margin-top: 30px;
+  transition: 0.3s;
+}
+
+.create-btn button:hover {
+  background-color: blue;
+}
+
+.sign-btn button {
+  width: 105%;
+  background-color: #fff;
+  color: #0079ff;
+  border: 1px solid #0079ff;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 3px 8px;
+  margin-top: 20px;
+  transition: 0.3s;
+}
+
+.sign-btn button:hover {
+  background-color: #0079ff;
+  color: #fff;
+}
+
+#sign-in-link {
+  font-weight: 500;
+  color: #777;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#sign-in-link a {
+  color: #0079ff;
+  text-decoration: none;
+}
